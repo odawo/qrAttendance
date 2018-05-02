@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/unitId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="unit ID"/>
+
+    <EditText
+        android:id="@+id/unitName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="unit name"
+        android:layout_below="@+id/unitId"/>
+
+    <EditText
+        android:id="@+id/startDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/unitName"
+        android:inputType="date"
+        android:hint="start date"/>
+
+    <EditText
+        android:id="@+id/endDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/startDate"
+        android:inputType="date"
+        android:hint="end date"/>
+
+    <EditText
+        android:id="@+id/noHours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="no of hours"
+        android:inputType="time"
+        android:layout_below="@+id/endDate"/>
+
+    <!--<Button-->
+        <!--android:id="@+id/btnCreate"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_below="@+id/noHours"-->
+        <!--android:text="create" />-->
+
+
+</RelativeLayout>

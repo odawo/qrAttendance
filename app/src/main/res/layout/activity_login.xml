@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.vanessaodawo.qrattendance.Login">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QR ATTENDANCE APP : LOGIN"
+        android:gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/lecEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="email"
+        android:layout_below="@+id/lecName"
+        android:inputType="textEmailAddress"
+        android:gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/lecPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:layout_below="@+id/lecEmail"
+        android:gravity="center_horizontal"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="log in"
+        android:layout_below="@+id/lecPassword"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvRegister"
+        android:layout_alignBottom="@+id/tvRegister"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="73dp"
+        android:layout_marginStart="73dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="20dp"
+        android:text="Don't have an account?" />
+
+    <TextView
+        android:id="@+id/tvRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLogin"
+        android:layout_toRightOf="@+id/tvText"
+        android:text=" Register "
+        android:paddingTop="20dp"
+        android:clickable="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/tvForgotPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="forgot password?"
+        android:layout_below="@+id/tvText"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>

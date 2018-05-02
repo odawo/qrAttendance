@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "401634748303",
+    "firebase_url": "https://qrattendance-8a41f.firebaseio.com",
+    "project_id": "qrattendance-8a41f",
+    "storage_bucket": "qrattendance-8a41f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401634748303:android:2a66f64ee914d01a",
+        "android_client_info": {
+          "package_name": "com.vanessaodawo.qrattendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "401634748303-9b2pf3ld76tacu92fk6ftku91spunpsb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vanessaodawo.qrattendance",
+            "certificate_hash": "5443ee3f555c31abd3b3603f3141a65f7b731250"
+          }
+        },
+        {
+          "client_id": "401634748303-t9fb9a7eo9fl1akpm5i6tflenkk7pfk3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhKUbgXX-3Uc668Xhz6GolJGTGgjoRMpY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "401634748303-t9fb9a7eo9fl1akpm5i6tflenkk7pfk3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

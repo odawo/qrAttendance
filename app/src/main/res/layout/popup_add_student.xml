@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FILL STUDENT EMAIL"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/studentEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/tvinfo"
+        android:text="student email"
+        android:inputType="textEmailAddress"/>
+
+    <Button
+        android:id="@+id/btnAddStud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/studentEmail"
+        android:layout_margin="10dp"
+        android:text="add"/>
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/topColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/unitidentifier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="unit id"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/topColor"/>
+
+    <TextView
+        android:id="@+id/unitnaming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="unit name"
+        android:textSize="20sp"
+        android:layout_below="@id/unitidentifier"/>
+
+    <TextView
+        android:id="@+id/unitHoursTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="unit hours"
+        android:textSize="20sp"
+        android:layout_below="@id/unitnaming"/>
+
+    <Button
+        android:id="@+id/viewClassBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/unitHoursTime"
+        android:text="view class"/>
+
+    <android.support.v7.widget.ActionMenuPresenter.OverflowMenuButton
+        android:id="@+id/overflow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_more_vert_black_24dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
